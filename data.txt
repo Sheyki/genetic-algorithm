@@ -1,0 +1,75 @@
+data1:
+
+pm = 0.03+((M-K)/M)*0.05; % szansa inwersji
+
+pc = 1; % szansa na krzyżowanie
+
+q = 10; % ilość osobników w turnieju
+
+MSE = mean([immse(dStp, aStp)]);
+out = 1/MSE;
+
+
+
+data2:
+
+pm = 0.03; % szansa inwersji
+
+pc = 1; % szansa na krzyżowanie
+
+q = 10; % ilość osobników w turnieju
+
+MSE = mean([immse(dStp, aStp)]);
+out = 1/MSE;
+
+
+
+data3:
+
+pm = 0.05; % szansa inwersji
+
+pc = 1; % szansa na krzyżowanie
+
+q = 10; % ilość osobników w turnieju
+
+MSE = mean([immse(dStp, aStp)]);
+out = 1/MSE;
+
+
+
+data4:
+
+pm = 0.03; % szansa inwersji
+
+pc = 1; % szansa na krzyżowanie
+
+q = 7; % ilość osobników w turnieju
+
+MSE = mean([immse(dStp, aStp)]);
+out = 1/MSE;
+
+
+
+data5:
+
+pm = 0.03; % szansa inwersji
+
+pc = 1; % szansa na krzyżowanie
+
+q = 15; % ilość osobników w turnieju
+
+MSE = mean([immse(dStp, aStp)]);
+out = 1/MSE;
+
+
+
+data6:
+
+pm = 0.03; % szansa inwersji
+
+pc = 0.5; % szansa na krzyżowanie
+
+q = 10; % ilość osobników w turnieju
+
+MSE = mean([immse(dStp, aStp)]);
+out = 1/MSE;
